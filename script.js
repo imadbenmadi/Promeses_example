@@ -3,6 +3,13 @@ const item2=document.getElementById("two")
 const item3=document.getElementById("three")
 const item4=document.getElementById("four")
 const refresh = document.querySelector(".refresh")
+const github_logo = document.querySelector("h4 a img");
+
+if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+    github_logo.src = "github-mark/github-mark.png";
+} else {
+    github_logo.src = "github-mark/github-mark-white.png";
+}
 
 
 refresh.addEventListener("click",()=>{

@@ -10,7 +10,14 @@ body{
 h1{
     padding: 10px;
 }
-
+.github_logo{
+    width: 100vh;
+}
+.github_logo img{
+    
+    margin: 10px auto;
+    width: 50px;
+}
 .item{
     padding: 40px;
     font-size: 2em;
