@@ -1,2 +1,2 @@
 # Promeses_example
-this a simple exercise using async Promeses 
+this a simple exercise to use async Promeses 
